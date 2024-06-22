@@ -13,12 +13,14 @@
     display: flex;
     align-items: center;
     color: white;
-    justify-content: space-around;
+    justify-content: space-between;
+    
 }
 
 .nav-logo{
     height: 55px;
     width: 100px;
+    margin-left: 10px;
 }
 
 .logo{
@@ -64,14 +66,14 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    width: 400px;
+    width: 500px;
     height: 40px;
     border-radius: 3px;
 }
 
 #nav-select{
     border: none;
-    width: 40px;
+    width: auto;
     height: 100%;
     border-bottom-left-radius: 3px;
     border-top-left-radius: 3px;
@@ -85,6 +87,7 @@
     height:38px;
     border: none;
     font-size: .85rem;
+    font-weight: 500;
 }
 
 .search-icon{
@@ -95,19 +98,69 @@
     width: 60px;
     font-size: 20px;
     background-color: #fc9d03;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
     color: #0f1111;
     font-weight: 500;
     border-top-right-radius: 3px;
     border-bottom-right-radius: 3px;
 }
 
-.input:focus{
-    border:2px solid #fc9d03;
+.nav-search:hover{
+    border:2.3px solid #fc9d03;
+}
+/**signin option styling**/
+.nav-signin Span{
+    font-size: 12px;
 }
 
-/**Heloo**/
+.nav-signin p{
+    font-weight: 700;
+    font-size: .90rem;
+}
+/**returns option styling**/
+.nav-return Span{
+    font-size: 12px;
+}
+
+.nav-return p{
+    font-weight: 700;
+    font-size: .90rem;
+}
+
+/**Cart option styling**/
+.nav-cart i{
+font-size: 1.5rem;   
+}
 .nav-cart{
-    
+    font-size: .85rem;
+    font-weight: 700;
+    margin-right: 20px;
+}
+
+/**This CSS is for Panel**/
+.panel{
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #FFFFFF;
+    font-size: .85rem;
+}
+.panel-options a{
+    text-decoration: none;
+    color: #FFFFFF; 
+    margin-left: 15px;
+    font-size: .85rem;
+}
+.panel-options{
+    width: 70%;
+}
+.panel-all{
+    margin-left: 20px;
+}
+.panel-side{
+    margin-right: 16px;
+    font-weight: 700;
 }
