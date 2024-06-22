@@ -6,7 +6,7 @@
 
 /**Navigation bar styling**/
 
-.navbar{
+.navbar {
     background-color: #0f1111;
     color: white;
     height: 60px;
@@ -14,66 +14,66 @@
     align-items: center;
     color: white;
     justify-content: space-between;
-    
+
 }
 
-.nav-logo{
+.nav-logo {
     height: 55px;
     width: 100px;
     margin-left: 10px;
 }
 
-.logo{
+.logo {
     background-image: url("amazon_logo.png");
     height: 50px;
     width: 99%;
     background-size: cover;
 }
 
-.boder{
+.boder {
     border: 1px solid transparent;
     border-radius: 2px;
 }
 
-.border:hover{
+.border:hover {
     border: solid 1px white;
     border-radius: 2px;
 }
 
-.location-icon{
+.location-icon {
     display: flex;
     align-items: center;
 }
 
-.location-1{
+.location-1 {
     font-size: 12px;
     color: #CCCCCC;
     margin: 0px 0px 0px 14px;
 }
 
-.location-2{
+.location-2 {
     font-size: 14px;
     color: #FFFFFF;
     margin-left: 4px;
-   font-weight: 500;
+    font-weight: 500;
 }
 
 /**Search Styling**/
 
 
-.nav-search{
+.nav-search {
     background-color: rgb(255, 255, 255);
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    width: 500px;
+    width: 650px;
     height: 40px;
     border-radius: 3px;
 }
 
-#nav-select{
+#nav-select {
     border: none;
-    width: auto;
+    width: 50px;
     height: 100%;
     border-bottom-left-radius: 3px;
     border-top-left-radius: 3px;
@@ -82,15 +82,15 @@
     border-bottom-left-radius: 3px;
 }
 
-.nav-input{
+.nav-input {
     width: 100%;
-    height:38px;
+    height: 38px;
     border: none;
     font-size: .85rem;
     font-weight: 500;
 }
 
-.search-icon{
+.search-icon {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -106,61 +106,122 @@
     border-bottom-right-radius: 3px;
 }
 
-.nav-search:hover{
-    border:2.3px solid #fc9d03;
+.nav-search:hover {
+    border: 2.3px solid #fc9d03;
 }
+
 /**signin option styling**/
-.nav-signin Span{
+.nav-signin Span {
     font-size: 12px;
 }
 
-.nav-signin p{
+.nav-signin p {
     font-weight: 700;
     font-size: .90rem;
 }
+
 /**returns option styling**/
-.nav-return Span{
+.nav-return Span {
     font-size: 12px;
 }
 
-.nav-return p{
+.nav-return p {
     font-weight: 700;
     font-size: .90rem;
 }
 
 /**Cart option styling**/
-.nav-cart i{
-font-size: 1.5rem;   
+.nav-cart i {
+    font-size: 1.5rem;
 }
-.nav-cart{
+
+.nav-cart {
     font-size: .85rem;
     font-weight: 700;
     margin-right: 20px;
 }
 
 /**This CSS is for Panel**/
-.panel{
+.panel {
     height: 40px;
     background-color: #222f3d;
     display: flex;
     align-items: center;
     justify-content: space-between;
     color: #FFFFFF;
-    font-size: .85rem;
+    font-size: .95rem;
 }
-.panel-options a{
+
+.panel-options a {
     text-decoration: none;
-    color: #FFFFFF; 
+    color: #FFFFFF;
     margin-left: 15px;
-    font-size: .85rem;
+    font-size: .90rem;
 }
-.panel-options{
+
+.panel-options {
     width: 70%;
 }
-.panel-all{
+
+.panel-all {
     margin-left: 20px;
+    font-weight: 700;
 }
-.panel-side{
+
+.panel-side {
     margin-right: 16px;
     font-weight: 700;
+}
+
+/**Banner image starting here**/
+.banner_image {
+    background-image: url("hero\ image.jpg");
+    height: 300px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+/**Caution styling here**/
+.caution-txt {
+    font-size: 14px;
+    height: 40px;
+    width: 96.6%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 20px;
+    font-size: 0.90rem;
+}
+
+/**main Starting here**/
+.box{
+    height: 350px;
+    width: 23%;
+    background-color: rgb(255, 255, 255);
+    margin-top: 0px;
+}
+.main-content{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(68, 0, 255);
+}
+.image-container{
+    height: 270px;
+    width: 90%;
+    background-size: cover;
+    margin: 10px 15px;
+
+}
+.box h2{
+    margin-left: 15px;
+    margin-top: 18px;
+    color: #0f1111;
+    font-family: sans-serif;
+}
+.box a{
+    margin-left: 15px;
+    font-size: .75rem;
 }
