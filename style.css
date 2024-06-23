@@ -198,12 +198,12 @@
 
 /**main Starting here**/
 .box{
-    height: 350px;
+    height: 365px;
     width: 23%;
     background-color: rgb(255, 255, 255);
     margin-top: 0px;
 }
-.main-content{
+.main-container{
     display: flex;
     justify-content: space-evenly;
     background-color: rgb(68, 0, 255);
@@ -224,4 +224,37 @@
 .box a{
     margin-left: 15px;
     font-size: .75rem;
+}
+
+
+/** Footer styling statrting hrer**/
+.footer-container{
+   height:    660px;
+   width: 100%;
+   background-color: #232F3E;
+   display: flex;
+   align-items: flex-start;
+   justify-content: space-evenly;
+}
+
+.second-footer{
+    height: 300px;
+    width: 100%;
+    background-color: #131a22;
+}
+.options{
+    margin-top: 45px;
+    
+}
+
+.options p{
+    margin-top: 10px;
+    font-size: .90rem;
+    color: #DDDDDD;
+}
+
+#opt-heading{
+    color: white;
+    font-weight: 650;
+    font-size: .97rem;
 }
